@@ -17,6 +17,7 @@ import vsCodeImage from "../image/vscode.png";
 import sassImage from "../image/sass.png";
 import reduxImage from "../image/redux.png";
 import redisImage from "../image/redis.png";
+import SwaggererImage from "../image/swagger.png"; 
 import awsImage from "../image/aws.png";
 import dockerImage from "../image/docker.png";
 import socketImage from "../image/socket.svg";
@@ -128,7 +129,10 @@ const Skills = () => {
           title: "Vscode",
           image: vsCodeImage,
         },
-        // Add more tools
+        {
+          title:"Swagger",
+          image:SwaggererImage
+          }
       ],
     },
   ];

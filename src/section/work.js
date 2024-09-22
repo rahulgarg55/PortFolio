@@ -18,7 +18,7 @@ const Work = () => {
     },
     {
       id: 2,
-      title: "Software Engineer",
+      title: "Software Engineer(Contract Basis)",
       company: "Kommuno",
       location: "Remote",
       date: "Nov 2023 - April 2024",

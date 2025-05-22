@@ -5,41 +5,44 @@ const Work = () => {
   const workExperience = [
     {
       id: 1,
-      title: "Software Engineer",
-      company: "WebMob Solutions",
-      location: "Mohali",
-      date: "April 2024 - Present",
+      title: "MERN Full Stack Developer",
+      company: "Basta Tech Solutions Pvt. Ltd.",
+      location: "Chandigarh, India",
+      date: "Dec 2024 - Present",
       responsibilities: [
-        "Developed a banking application utilizing microservices architecture, incorporating technologies such as Redis and Kafka for enhanced performance and scalability",
-        "• Designed and implemented various APIs, including generating Swagger documentation for API endpoints and addressing issues identified by SonarQube.",
-        "• Optimized complex codebases and independently built microservice, ensuring efficiency and reliability.",
-        "Provided guidance and support to interns and junior team members, fostering their development and integrationinto the team.",
+        "Led a team of 5 developers in designing and deploying BastaxCasino (https://bastaxcasino.com/home), a full-stack casino gaming platform for European markets, including an admin panel (https://admin.bastaxcasino.com/home) and affiliate panel, using Node.js and ReactJS. Architected the MongoDB database schema from scratch, optimizing for real-time transaction processing and scalability, achieving 99.9% uptime.",
+        "Developed 100+ RESTful APIs using Node.js for game betting, affiliate commission tracking (2% on player winnings), and admin management, integrating with React.js for dynamic, responsive dashboards using React hooks and Material-UI.",
+        "Spearheaded DevOps processes by configuring Nginx as a reverse proxy, managing PM2 for process monitoring, and deploying applications via Termius, ensuring seamless routing for frontend, admin, and API services across domains. Mentored team members in Node.js, ReactJS, and DevOps best practices, streamlining workflows with Docker and CI/CD pipelines, reducing deployment time by 50%."
       ],
     },
     {
       id: 2,
-      title: "Software Engineer(Contract Basis)",
-      company: "Kommuno",
-      location: "Remote",
-      date: "Nov 2023 - April 2024",
+      title: "MERN Full Stack Developer",
+      company: "Webmob Solutions",
+      location: "Chandigarh, India",
+      date: "Oct 2023 - Dec 2024",
       responsibilities: [
+        "Developed various Microservices for Banking Application, incorporating technologies such as Redis and Kafka for enhanced performance and scalability.",
+        "Developed a Decentralized application integrating AI and Blockchain technologies, implementing Role-Based Access Control (RBAC) inspired by the UMA Protocol. Designed and managed end-to-end functionality as a Full Stack Developer, ensuring secure, scalable, and efficient interactions between AI and Blockchain components including End to End Testing (User Panel, Admin Panel, and Moderator).",
+        "Designed and implemented various APIs, including generating Swagger documentation for API endpoints and addressing issues identified by SonarQube.",
+        "Optimized complex codebases and independently built Microservice, ensuring efficiency and reliability.",
+        "Provided guidance and support to interns and junior team members, fostering their development and integration into the team.",
         "Refactored codebase to optimize database performance by removing unnecessary or redundant code.",
-        " Developed JavaScriptscriptsto automate build processes and streamline workflows for efficient project management.",
-        " Designed and implemented robust APIsfor call management functionalities including Call Hold, UnHold, Mute,Call Transfer, Unmute. Additionally, optimized key APIs to enhance system performance, ensuring swift response times and superior user experience",
-        "Implemented Redisto optimize data throughput and enhance database performance.",
+        "Developed JavaScript scripts to automate build processes and streamline workflows for efficient project management.",
+        "Designed and implemented robust APIs for call management functionalities including Call Hold, UnHold, Mute, Call Transfer, Unmute. Additionally, optimized key APIs to enhance system performance, ensuring swift response times and superior user experience."
       ],
     },
     {
       id: 3,
-      title: "Software Engineer",
-      company: "ZapBuild Technologies",
-      location: "Mohali",
-      date: "Sep 2022 - Oct 2023",
+      title: "Full Stack MERN Developer",
+      company: "Zapbuild Technologies",
+      location: "Chandigarh, India",
+      date: "Mar 2022 - Oct 2023",
       responsibilities: [
-        "Created a full-stack data warehousing system entirely from the ground up, utilizing technologies like Express.js, React,Material UI, and more.",
-         "Developed custom APIs from scratch to cater to various user roles, including administrators, suppliers, and customers.",
-          "• Established efficient database schemas and tables from scratch in MySQL, enabling features such as inventory management and role-based access control (RBAC), Incoming Transaction is when item added in Store and outgoing is when item bought by any customer.",
-          "Admin users gained the ability to manage suppliers and customers, including functions like addition, editing, and deletion.Customers were provided with viewing access to store products, while suppliers could add and manage their own products, all under the administration's oversight."
+        "Created a full-stack data warehousing system entirely from the ground up, utilizing technologies like Express.js, React, Material UI, and more.",
+        "Developed custom APIs from scratch to cater to various user roles, including administrators, suppliers, and customers.",
+        "Established efficient database schemas and tables from scratch in MySQL, enabling features such as inventory management and role-based access control (RBAC), Incoming Transaction is when item added in Store and outgoing is when item bought by any customer.",
+        "Admin users gained the ability to manage suppliers and customers, including functions like addition, editing, and deletion. Customers were provided with viewing access to store products, while suppliers could add and manage their own products, all under the administration's oversight."
       ],
     },
   ];

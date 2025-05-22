@@ -8,9 +8,28 @@ import Project5Image from "../image/projects/Project5.png";
 import Project6Image from "../image/projects/Project6.png";
 import Project7Image from "../image/projects/Project7.png";
 import Project8Image from "../image/projects/turbo-talk.png";
+import Project9Image from "../image/projects/Project9.png"; // Placeholder for BastaxCasino
+import Project10Image from "../image/projects/Project10.png"; // Placeholder for Decentralized App
 import UpDownAnimation from "../animation/upDown";
+
 const Project = () => {
   const projects = [
+    {
+      title: "BastaxCasino",
+      link: "https://bastaxcasino.com/home",
+      github: "", // No GitHub link provided in CV
+      summary:
+        "A full-stack casino gaming platform for European markets with admin and affiliate panels, built using Node.js, ReactJS, and MongoDB.",
+      image: Project9Image,
+    },
+    {
+      title: "Decentralized AI-Blockchain App",
+      link: "", // No live link provided in CV
+      github: "", // No GitHub link provided in CV
+      summary:
+        "A decentralized application integrating AI and Blockchain with Role-Based Access Control, featuring end-to-end functionality for user, admin, and moderator panels.",
+      image: Project10Image,
+    },
     {
       title: "Turbo Talk",
       link: "https://turbo-talk.vercel.app/auth/login",
@@ -37,7 +56,6 @@ const Project = () => {
     },
     {
       title: "Indeed Data Extractor",
-      // link:'',
       github: "https://github.com/rahulgarg55/IndeedDataExtracter",
       summary:
         "Web scraping tool to extract job data from Indeed for specific criteria.",
@@ -45,7 +63,6 @@ const Project = () => {
     },
     {
       title: "FileShare Website",
-      // link:'',
       github: "https://github.com/rahulgarg55/fileshare",
       summary:
         "Platform for simplified file sharing with seamless Gmail integration.",
@@ -69,21 +86,20 @@ const Project = () => {
   ];
 
   return (
-    <div className="bg-secondary  min-h-screen text-white py-12" id="Projects">
+    <div className="bg-secondary min-h-screen text-white py-12" id="Projects">
       <UpDownAnimation>
-        <div className="container ">
-          <h1 className=" pt-12  md:text-2xl text-xl font-semibold ">
-            {" "}
+        <div className="container">
+          <h1 className="pt-12 md:text-2xl text-xl font-semibold">
             Things I've Built.
           </h1>
           <p className="pt-3 md:text-xl text-lg text-text">
             Here's some of my projects that I have worked on.
           </p>
-          <div className="flex flex-wrap mt-20 gap-8 items-center justify-center ">
+          <div className="flex flex-wrap mt-20 gap-8 items-center justify-center">
             {projects.map((project) => (
               <div
                 key={project.title}
-                className="overflow-hidden rounded-md shadow flex-1 [min-width:300px] [max-width:340px] "
+                className="overflow-hidden rounded-md shadow flex-1 [min-width:300px] [max-width:340px]"
               >
                 <div className="h-52">
                   <img
@@ -92,7 +108,7 @@ const Project = () => {
                     alt="img"
                   />
                 </div>
-                <div className=" px-4 py-6">
+                <div className="px-4 py-6">
                   <div className="flex justify-between items-center">
                     <p className="md:text-lg text-sm font-semibold">
                       {project.title}
@@ -136,7 +152,7 @@ const Project = () => {
                       borderColor: "#27303f",
                     }}
                   />
-                  <p className="md:text-sm text-xs">{project.summary} </p>
+                  <p className="md:text-sm text-xs">{project.summary}</p>
                 </div>
               </div>
             ))}
@@ -146,4 +162,5 @@ const Project = () => {
     </div>
   );
 };
+
 export default Project;

@@ -3,7 +3,6 @@ import SideWayAnimation from "../animation/sideWay";
 import azureImage from "../image/Azure.png";
 import cssImage from "../image/css.png";
 import expressjsImage from "../image/expressJs.png";
-import fireBaseImage from "../image/firebase.png";
 import gitImage from "../image/git.png";
 import gitHubImage from "../image/github.png";
 import htmlImage from "../image/html.png";
@@ -76,7 +75,26 @@ const Skills = () => {
           title: "Express.js",
           image: expressjsImage,
         },
-        // Add more back-end technologies
+        {
+          title: "NestJS",
+          image: azureImage,
+        },
+        {
+          title: "TypeORM",
+          image: mysqlImage,
+        },
+        {
+          title: "Mongoose",
+          image: mongoDbImage,
+        },
+        {
+          title: "Kafka",
+          image: redisImage,
+        },
+        {
+          title: "JWT",
+          image: gitHubImage,
+        },
       ],
     },
     {
@@ -94,6 +112,14 @@ const Skills = () => {
         {
           title: "Redis",
           image: redisImage,
+        },
+        {
+          title: "SQL",
+          image: mysqlImage,
+        },
+        {
+          title: "NoSQL",
+          image: mongoDbImage,
         },
       ],
     },

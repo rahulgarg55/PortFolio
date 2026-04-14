@@ -53,11 +53,11 @@ const Hero = () => {
               Rahul Garg{" "}
             </h1>
             <p className="md:text-3xl sm:text-2xl  text-lg  my-6">
-              Software Engineer.
+              Mid Level Software Engineer.
               <span className="text-text">
                 {" "}
-                Self-taught Full Stack Developer | Passionate about learning and
-                innovation
+                MERN Full Stack Developer with experience in judicial data systems,
+                offline KYC, real-time integrations, microservices and AI/Blockchain.
               </span>
             </p>
             <div className="flex gap-2 flex-wrap">

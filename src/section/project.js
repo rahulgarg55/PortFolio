@@ -5,7 +5,6 @@ import Project2Image from "../image/projects/Project2.png";
 import Project3Image from "../image/projects/Project3.png";
 import Project4Image from "../image/projects/Project4.png";
 import Project5Image from "../image/projects/Project5.png";
-import Project6Image from "../image/projects/Project6.png";
 import Project7Image from "../image/projects/Project7.png";
 import Project8Image from "../image/projects/turbo-talk.png";
 import Project9Image from "../image/projects/Project9.png"; // Placeholder for BastaxCasino

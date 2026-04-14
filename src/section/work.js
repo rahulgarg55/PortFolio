@@ -1,4 +1,4 @@
-import { Calendar } from "phosphor-react";
+import { Calendar, Briefcase, MapPin } from "phosphor-react";
 import SideWayAnimation from "../animation/sideWay";
 
 const Work = () => {

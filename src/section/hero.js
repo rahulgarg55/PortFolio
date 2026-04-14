@@ -26,7 +26,7 @@ const Hero = () => {
       href: "mailto:gargr0109@gmail.com",
     },
     {
-      title: "Resume",
+      title: "Resumee",
       icon: <FileText size={22} />,
       href: "https://drive.google.com/file/d/1kdwNp244qtguZBRdeQkeXJ_a2k6ejHQv/view?usp=sharing",
     },

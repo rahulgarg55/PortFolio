@@ -28,7 +28,7 @@ const Hero = () => {
     {
       title: "Resume",
       icon: <FileText size={22} />,
-      href: "https://drive.google.com/file/d/1mI0gowmv-Y1ivGqRb5K3KxCxO43z2w6u/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1kdwNp244qtguZBRdeQkeXJ_a2k6ejHQv/view?usp=sharing",
     },
     {
       title: "Leetcode",
